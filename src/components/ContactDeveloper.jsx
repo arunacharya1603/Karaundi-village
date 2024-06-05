@@ -39,11 +39,9 @@ const ContactDeveloper = () => {
         email: "",
         message: "",
       });
-    } 
-    catch (error) {
+    } catch (error) {
       alert("Failed to send message");
     }
-
   };
 
   return (
@@ -52,24 +50,24 @@ const ContactDeveloper = () => {
         Contact Developer
       </p>
       <div className="flex flex-col md:flex-row justify-center items-center w-full">
-        <div className="flex flex-col justify-center items-start mb-4 md:mb-0 md:mr-8">
-          <p className="text-2xl font-semibold text-orange-600 mb-4">
+        <div className="flex flex-col justify-center items-start mb-4 md:mb-0 md:mr-8 p-4 bg-white shadow-lg rounded-lg">
+          <p className="text-lg font-semibold text-orange-600 mb-2">
             Name: Er. Arun
           </p>
-          <p className="text-2xl font-semibold text-orange-600 mb-4">
-            Send message directly to this mail id for your personalised
-            Portfolio or Website.
+          <p className="text-xl font-semibold text-orange-600 mb-2">
+            Send a message directly to this email for your personalized
+            portfolio or website.
           </p>
-          <p className="text-2xl font-semibold text-orange-600 mb-4">
+          <p className="text-xl font-semibold text-orange-600 mb-2">
             Email:
             <a
               href="mailto:arunacharya1603@gmail.com"
-              className="text-orange-900"
+              className="text-orange-900 underline"
             >
               arunacharya1603@gmail.com
             </a>
           </p>
-          <p className="text-2xl font-semibold text-orange-600">
+          <p className="text-xl font-semibold text-orange-600">
             Address: Karaundi, Deoria, Uttar Pradesh, India
           </p>
         </div>
