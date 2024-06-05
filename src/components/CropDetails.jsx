@@ -31,9 +31,9 @@ const CropDetails = () => {
             <p className="text-sm ml-4">
               <ul className="list-none text-amber-500 hover:list-disc list-outside hover:list-inside">
                 <li>650</li>
-                <li>With Fertilizer</li>
+                <li>Bansi Wheat</li>
                 <li>Without Fertilizer</li>
-                <li>Organic </li>
+                <li>Kathia Wheat </li>
               </ul>
             </p>
           </div>
@@ -42,10 +42,10 @@ const CropDetails = () => {
             <p className="text-lg ml-4">These are some Rice grown by the villagers</p>
             <p className="text-sm ml-4">
               <ul className="list-none text-amber-500 hover:list-disc list-outside hover:list-inside">
-                <li>Basmati</li>
-                <li>Kala namak</li>
-                <li>Mansuri</li>
-                <li>Sona</li>
+                <li>Desi Chana</li>
+                <li>Kabuli Chana</li>
+                <li>Kala Chana</li>
+                <li>Green Chana</li>
               </ul>
             </p>
           </div>
@@ -54,10 +54,10 @@ const CropDetails = () => {
             <p className="text-lg ml-4">These are some Rice grown by the villagers</p>
             <p className="text-sm ml-4">
               <ul className="list-none text-amber-500 hover:list-disc list-outside hover:list-inside">
-                <li>Basmati</li>
-                <li>Kala namak</li>
-                <li>Mansuri</li>
-                <li>Sona</li>
+                <li>Bajra</li>
+                <li>Kharif Bajra</li>
+                <li>Bajri</li>
+                <li>Rabi Bajra</li>
               </ul>
             </p>
           </div>
@@ -66,10 +66,10 @@ const CropDetails = () => {
             <p className="text-lg ml-4">These are some Rice grown by the villagers</p>
             <p className="text-sm ml-4">
               <ul className="list-none text-amber-500 hover:list-disc list-outside hover:list-inside">
-                <li>Basmati</li>
-                <li>Kala namak</li>
-                <li>Mansuri</li>
-                <li>Sona</li>
+                <li>Ribbon Cane</li>
+                <li>White Sugarcane</li>
+                <li>Red Sugarcane</li>
+                <li>Saccharum officinarum</li>
               </ul>
             </p>
           </div>
