@@ -4,6 +4,7 @@ import MapDetails from "../components/MapDetails";
 import NearMarket from "../components/NearMarket";
 import OurProjects from "../components/OurProjects";
 import ContactDeveloper from "../components/ContactDeveloper";
+import Img from "../assets/sarpanch.png";
 
 const Home = () => {
   return (
@@ -13,8 +14,8 @@ const Home = () => {
         <div className="flex flex-col justify-center items-center md:flex-row ">
           <div className="p-4 md:p-8 z-50">
             <img
-              className="rounded-full h-60 md:h-80 w-40 md:w-56"
-              src="https://imgs.search.brave.com/Hrcj_A-0aslrO6m1JaZbqrVz_sL_bUO-_T3-79UkcHU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9t/YW4tZ3JlZW4tc2hp/cnQtaGF2aW5nLWhp/cy1hcm1zLWNyb3Nz/ZWRfMjMtMjE0ODQw/MTM4MC5qcGc_c2l6/ZT02MjYmZXh0PWpw/Zw"
+              className="rounded-full md:h-80 w-40 md:w-56"
+              src={Img}
               alt=""
             />
           </div>
