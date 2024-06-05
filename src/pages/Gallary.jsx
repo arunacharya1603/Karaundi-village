@@ -2,8 +2,8 @@ import React from 'react'
 
 const Gallary = () => {
   return (
-    <div>
-      Gallary
+    <div className='flex justify-center text-pretty font-handwriting font-bold'>
+      Comming Soon
     </div>
   )
 }
